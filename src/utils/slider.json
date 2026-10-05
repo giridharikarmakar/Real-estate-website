@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Aliva Priva Jardin",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung, Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Asatti Garden City",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Citralan Puri Serang",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Aliva Priva Jardin",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung, Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Green Lake Residence",
+    "price": "52,180",
+    "detail": "Green Lake Boulevard No.12, Tangerang, Banten",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Emerald Hills Estate",
+    "price": "74,920",
+    "detail": "Emerald Hills Road No.88, Bekasi, West Java",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Royal Palm Residency",
+    "price": "59,700",
+    "detail": "Palm Avenue Block C15, South Tangerang, Banten",
+    "image": "./r1.png"
+  }
+]

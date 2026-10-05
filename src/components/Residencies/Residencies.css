@@ -1,0 +1,138 @@
+.r-wrapper {
+  padding: 4rem 0;
+  background: #f5f5f5;
+}
+
+.r-container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.r-head {
+  margin-bottom: 2rem;
+}
+
+.r-head span {
+  display: block;
+  /* font-size: 2rem;
+  color: black; */
+}
+ 
+.primaryText{
+    color: #5f4d4d; 
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.orangeText{
+    color: #ea9921;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.r-card{
+    gap:0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.r-card>img{
+    width: 100%;
+    max-width: 15rem ;
+}
+
+.r-card > :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.r-card > :nth-child(3) {
+  font-size: 1.5rem;
+   
+}
+
+.r-card > :nth-child(4) {
+  font-size: 0.7rem;
+  width: 15rem;
+   
+}
+
+.r-card:hover {
+    scale: 1.025;
+    cursor: pointer;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(136, 160, 255, 0.46) 217.91%
+    );
+
+    box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+} 
+
+.swiper-horizontal{
+    overflow: visible;
+}
+
+.r-button{
+  position: absolute;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -4rem;
+  right: 0;
+}
+
+.r-button {
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  display: flex;
+  gap: 1rem;
+  z-index: 10;
+}
+
+.r-button button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  background: linear-gradient(145deg, #63e68c, #44c978);
+  color: white;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    inset -3px -3px 8px rgba(255,255,255,.25),
+    inset 3px 3px 8px rgba(0,0,0,.08),
+    0 8px 20px rgba(0,0,0,.2);
+
+  transition: .3s;
+}
+
+.r-button button:hover {
+  transform: scale(1.08);
+}
+
+.r-button button:active {
+  transform: scale(.95);
+}
